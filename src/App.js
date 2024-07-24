@@ -30,6 +30,9 @@ app.use('/api/reviews', reviewDataRoutes);
 const tabDataRoutes =require('./routes/top10colleges/tabDataRoutes')
 app.use('/api/top10colleges', tabDataRoutes);
 
+const department=require('./routes/department/department')
+app.use('/api/department',department)
+
 
  
 module.exports = app;
