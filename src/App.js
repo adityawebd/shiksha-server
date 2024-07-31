@@ -33,6 +33,9 @@ app.use('/api/top10colleges', tabDataRoutes);
 const department=require('./routes/department/department')
 app.use('/api/department',department)
 
+const college=require('./routes/collegepage/collegeslist')
+app.use('/api/collegelist',college)
+
 
  
 module.exports = app;
