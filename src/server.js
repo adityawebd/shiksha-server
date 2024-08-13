@@ -2,11 +2,6 @@
 const app = require('./App');
 const connectDB = require('./config/config')
 
-
-
-
-
-
 const PORT = process.env.PORT || 5000;
 connectDB();
  
