@@ -36,6 +36,13 @@ app.use('/api/department',department)
 const college=require('./routes/collegepage/collegeslist')
 app.use('/api/collegelist',college)
 
+const information=require('./routes/collegepage/information')
+app.use('/api/information',information)
+
+
+const blogs=require('./routes/blogs/blogs')
+app.use('/api/blog',blogs)
+
 
  
 module.exports = app;
